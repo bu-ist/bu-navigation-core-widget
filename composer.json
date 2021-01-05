@@ -13,7 +13,9 @@
             "email": "jaydub@bu.edu"
         }
     ],
-    "require": {},
+    "require": {
+        "composer/installers": "^1.9"
+    },
     "autoload": {
         "psr-4": {
             "BU\\Plugins\\Navigation\\": "src/"
