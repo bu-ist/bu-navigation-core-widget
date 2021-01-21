@@ -201,7 +201,7 @@ class Navigation_Widget extends \WP_Widget {
 		$navigation_title_url  = esc_attr( $instance['navigation_title_url'] );
 		$navigation_style      = ( in_array( $instance['navigation_style'], $this->styles, true ) ) ? $instance['navigation_style'] : 'site';
 
-		include BU_NAV_PLUGIN_DIR . '/templates/widget-form.php';
+		include __DIR__ . '/../templates/widget-form.php';
 	}
 
 	/**
