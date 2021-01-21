@@ -13,12 +13,15 @@
             "email": "jaydub@bu.edu"
         }
     ],
-    "require": {
-        "composer/installers": "^1.9"
-    },
     "autoload": {
-        "psr-4": {
-            "BU\\Plugins\\Navigation\\": "src/"
-        }
+        "classmap": ["src"],
+        "files": [
+            "src/data-model.php",
+            "src/data-format.php",
+            "src/data-widget.php",
+            "src/data-get-urls.php",
+            "src/data-active-section.php",
+            "src/data-nav-labels.php"
+        ]
     }
 }
