@@ -13,9 +13,6 @@
             "email": "jaydub@bu.edu"
         }
     ],
-    "require": {
-        "composer/installers": "^1.9"
-    },
     "autoload": {
         "classmap": ["src"],
         "files": [
