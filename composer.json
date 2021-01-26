@@ -12,16 +12,5 @@
             "name": "Jonathan Williams",
             "email": "jaydub@bu.edu"
         }
-    ],
-    "autoload": {
-        "classmap": ["src"],
-        "files": [
-            "src/data-model.php",
-            "src/data-format.php",
-            "src/data-widget.php",
-            "src/data-get-urls.php",
-            "src/data-active-section.php",
-            "src/data-nav-labels.php"
-        ]
-    }
+    ]
 }
