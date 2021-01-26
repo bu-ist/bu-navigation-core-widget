@@ -12,5 +12,8 @@
             "name": "Jonathan Williams",
             "email": "jaydub@bu.edu"
         }
-    ]
+    ],
+    "require": {
+        "composer/installers": "^1.10"
+    }
 }
