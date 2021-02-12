@@ -36,7 +36,7 @@ function filter_item_attrs( $classes, $page ) {
 	return $classes;
 }
 
-add_filter( 'bu_navigation_filter_item_attrs', __NAMESPACE__ . 'filter_item_attrs', 10, 2 );
+add_filter( 'bu_navigation_filter_item_attrs', __NAMESPACE__ . '\filter_item_attrs', 10, 2 );
 
 /**
  * Filter to apply "active" class to a navigation item if it is the current page
@@ -62,7 +62,7 @@ function filter_item_active_page( $attributes, $page ) {
 	return $attributes;
 }
 
-add_filter( 'bu_navigation_filter_anchor_attrs', __NAMESPACE__ . 'filter_item_active_page', 10, 2 );
+add_filter( 'bu_navigation_filter_anchor_attrs', __NAMESPACE__ . '\filter_item_active_page', 10, 2 );
 
 // Add default filters from "the_title" when displaying navigation label.
 add_filter( 'bu_navigation_format_page_label', 'wptexturize' );
