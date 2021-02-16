@@ -9,6 +9,26 @@
     },
     "authors": [
         {
+            "name": "Niall Kavanagh",
+            "email": "ntk@bu.edu"
+        },
+        {
+            "name": "Gregory Cornelius",
+            "email": "gcorne@gmail.com"
+        },
+        {
+            "name": "Mike Burns",
+            "email": "mgburns@bu.edu"
+        },
+        {
+            "name": "Tyler Wiest",
+            "email": "jtwiest@gmail.com"
+        },
+        {
+            "name": "Andrew Bauer",
+            "email": "awbauer@bu.edu"
+        },
+        {
             "name": "Jonathan Williams",
             "email": "jaydub@bu.edu"
         }
